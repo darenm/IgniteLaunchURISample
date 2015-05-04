@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgniteApp2", "IgniteApp2\Ig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IgniteLauncher", "IgniteLauncher\IgniteLauncher.csproj", "{65C366B8-DB81-4CE6-AE00-BB1182672F93}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Snippets", "Code Snippets", "{28646365-D7E9-4DE5-9F7F-E45D75FC00F8}"
+	ProjectSection(SolutionItems) = preProject
+		CodeSnippets\launcheruri_lufn.snippet = CodeSnippets\launcheruri_lufn.snippet
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM

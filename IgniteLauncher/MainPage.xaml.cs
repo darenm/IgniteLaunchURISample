@@ -31,6 +31,7 @@ namespace IgniteLauncher
         private async void LaunchApp(object sender, RoutedEventArgs e)
         {
             await Launcher.LaunchUriAsync(new Uri("ignite2015:"));
+            //lufn
         }
     }
 }
