@@ -9,16 +9,30 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
           Padding="10">
-        <Grid.ChildrenTransitions>
-            <TransitionCollection>
-                <EntranceThemeTransition/>
-            </TransitionCollection>
-        </Grid.ChildrenTransitions>
-        <TextBlock Style="{StaticResource HeaderTextBlockStyle}"
-                   Foreground="Red">
-            LauncherURI App2
-        </TextBlock>
+        <StackPanel>
+            <StackPanel.ChildrenTransitions>
+                <TransitionCollection>
+                    <EntranceThemeTransition IsStaggeringEnabled="True"/>
+                </TransitionCollection>
+            </StackPanel.ChildrenTransitions>
 
+            <TextBlock Style="{StaticResource HeaderTextBlockStyle}"
+                       Foreground="Red">
+            App 2
+            </TextBlock>
+            <TextBlock Style="{StaticResource SubheaderTextBlockStyle}"
+                       Foreground="Red">
+            Not the one I wanted
+            </TextBlock>
+            <TextBlock>Blah</TextBlock>
+            <TextBlock>Blah</TextBlock>
+            <TextBlock>Blah</TextBlock>
+            <TextBlock>Blah</TextBlock>
+            <TextBlock>Blah</TextBlock>
+            <TextBlock>Blah</TextBlock>
+            <TextBlock>Blah</TextBlock>
+            <TextBlock>Blah</TextBlock>
+        </StackPanel>
 
     </Grid>
 </Page>
